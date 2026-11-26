@@ -1,0 +1,104 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Администратор",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Марина Петрова",
+      "role": "teacher"
+    },
+    {
+      "id": 3,
+      "name": "Олег Смирнов",
+      "role": "teacher"
+    },
+    {
+      "id": 4,
+      "name": "Анна Иванова",
+      "role": "student"
+    },
+    {
+      "id": 5,
+      "name": "Борис Ким",
+      "role": "student"
+    },
+    {
+      "id": 6,
+      "name": "Марина",
+      "role": "student"
+    }
+  ],
+  "subjects": [
+    {
+      "id": 1,
+      "name": "Программирование",
+      "teachers": [
+        2
+      ],
+      "students": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Базы данных",
+      "teachers": [
+        2,
+        3
+      ],
+      "students": [
+        4
+      ]
+    }
+  ],
+  "works": [
+    {
+      "id": 1,
+      "subjectId": 1,
+      "type": "report",
+      "title": "Хеш таблица"
+    },
+    {
+      "id": 2,
+      "subjectId": 1,
+      "type": "lab",
+      "title": "Разбор Json"
+    },
+    {
+      "id": 3,
+      "subjectId": 2,
+      "type": "lab",
+      "title": "Sql запросы"
+    },
+    {
+      "id": 4,
+      "subjectId": 1,
+      "type": "lab",
+      "title": "4"
+    }
+  ],
+  "submissions": [
+    {
+      "workId": 2,
+      "studentId": 4,
+      "status": "accepted",
+      "grade": 9
+    },
+    {
+      "workId": 1,
+      "studentId": 4,
+      "status": "accepted",
+      "grade": 0
+    },
+    {
+      "workId": 3,
+      "studentId": 4,
+      "status": "submitted",
+      "grade": 0
+    }
+  ]
+}

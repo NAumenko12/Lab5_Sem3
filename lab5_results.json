@@ -1,0 +1,92 @@
+{
+  "subjects": [
+    {
+      "id": 1,
+      "name": "Программирование",
+      "results": [
+        {
+          "subjectId": 1,
+          "subject": "Программирование",
+          "studentId": 4,
+          "student": "Анна Иванова",
+          "labAverage": 9.000000,
+          "works": [
+            {
+              "workId": 1,
+              "title": "Хеш таблица",
+              "type": "Доклад",
+              "status": "Принято",
+              "grade": "сдано"
+            },
+            {
+              "workId": 2,
+              "title": "Разбор Json",
+              "type": "Лабораторная",
+              "status": "Принято",
+              "grade": 9
+            },
+            {
+              "workId": 4,
+              "title": "4",
+              "type": "Лабораторная",
+              "status": "Нет заявки",
+              "grade": null
+            }
+          ]
+        },
+        {
+          "subjectId": 1,
+          "subject": "Программирование",
+          "studentId": 5,
+          "student": "Борис Ким",
+          "labAverage": null,
+          "works": [
+            {
+              "workId": 1,
+              "title": "Хеш таблица",
+              "type": "Доклад",
+              "status": "Нет заявки",
+              "grade": null
+            },
+            {
+              "workId": 2,
+              "title": "Разбор Json",
+              "type": "Лабораторная",
+              "status": "Нет заявки",
+              "grade": null
+            },
+            {
+              "workId": 4,
+              "title": "4",
+              "type": "Лабораторная",
+              "status": "Нет заявки",
+              "grade": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Базы данных",
+      "results": [
+        {
+          "subjectId": 2,
+          "subject": "Базы данных",
+          "studentId": 4,
+          "student": "Анна Иванова",
+          "labAverage": null,
+          "works": [
+            {
+              "workId": 3,
+              "title": "Sql запросы",
+              "type": "Лабораторная",
+              "status": "На проверке",
+              "grade": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
